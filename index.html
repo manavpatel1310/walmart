@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Product Line</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Dynamic Product Line</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ul>
+        </nav>
+        <img src="images/walmartlogo.png" alt="Logo" class="logo">
+    </header>
+    <main>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div id="product-list"></div>
+        </section>
+        <section id="cart">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items"></div>
+            <p>Total: $<span id="total-price">0.00</span></p>
+            <button id="clear-cart">Clear Cart</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dynamic Product Line</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
